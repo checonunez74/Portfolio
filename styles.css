@@ -1,0 +1,42 @@
+/* Make the navigation bar fixed at the top */
+.navbar {
+    position: fixed;
+    margin-top: 80px;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays on top of other elements */
+}
+
+#Summary, #experience, #education, #certificatesawards, #contactForm, #map {
+   padding-top: 155px;
+}
+/* Add top padding to body to prevent content from being hidden under the navbar */
+body {
+    padding-top: 80px; /* Adjust this value based on the height of your navbar */
+}
+
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
